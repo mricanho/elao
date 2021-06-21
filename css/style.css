@@ -1,3 +1,51 @@
+@import url("https://use.typekit.net/ecz0kkg.css");
+
+body {
+  font-family: clarendon-urw, serif;
+  font-weight: 400;
+}
+
 .navbar-item img {
   max-height: 2rem;
 }
+
+#no-logo {
+  display: none;
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+  background-color: white;
+  color: #c9e2ea;
+}
+
+@media screen and (min-width: 1024px) {
+  .my-navbar {
+    display: block !important;
+  }
+
+  .navbar-menu {
+    justify-content: center;
+  }
+
+  .my-navbar .navbar-brand {
+    display: none;
+  }
+
+  .navbar-start {
+    margin-right: 0;
+  }
+
+  .navbar-end {
+    margin-left: 0;
+  }
+
+  #my-navbar-menu>div>div {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .mobileLogo {
+    display: none !important;
+  }
+}
+
