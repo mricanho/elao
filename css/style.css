@@ -13,13 +13,26 @@ body {
   display: none;
 }
 
-#solo, #sol {
-  display: none;
-}
-
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
   background-color: white;
   color: #c9e2ea;
+}
+
+.hero {
+  background-color: #F5B4CC;
+  background-image: url(../assets/heropic.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+hr {
+  background-color: #c9e2ea;
+}
+
+@media screen and (max-width: 1023px) {
+  #solo, #sol {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -50,6 +63,10 @@ body {
 
   .mobileLogo {
     display: none !important;
+  }
+
+  .hero {
+    height: 700px;
   }
 }
 
