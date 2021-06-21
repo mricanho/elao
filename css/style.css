@@ -13,6 +13,10 @@ body {
   display: none;
 }
 
+#solo, #sol {
+  display: none;
+}
+
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
   background-color: white;
   color: #c9e2ea;
