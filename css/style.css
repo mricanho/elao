@@ -22,7 +22,7 @@ a {
   color: #c9e2ea;
 }
 
-.hero {
+.hero-1 {
   background-color: #F5B4CC;
   background-image: url(../assets/heropic2.jpg);
   background-position: center;
@@ -54,6 +54,21 @@ hr {
 
 .bounce {
   animation: bounceleftmargin 1s 1;
+}
+
+.newsletter {
+  background-color: #c9e2ea;
+}
+
+.footer {
+  background-color: #f6ecb979;
+}
+/* media query */
+
+@media screen and (max-width: 760px) {
+  .hero-1 {
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
