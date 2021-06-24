@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #893a8f;
+  color: #000000;
 }
 
 .navbar-item img {
@@ -35,6 +35,17 @@ hr {
 
 .mainC1 {
   background-image: url(../assets/history.jpg);
+}
+
+.mainC2 {
+  background-image: url(../assets/sabores.jpg)
+}
+
+.mainC3 {
+  background-image: url(../assets/puntoventa.jpg);
+}
+
+.mainC1, .mainC2, .mainC3 {
   background-position: center;
   background-size: cover;
   background-color: #F5B4CC;
@@ -50,7 +61,7 @@ hr {
     display: none;
   }
 
-  .mainC1 {
+  .mainC1, .mainC2, .mainC3 {
     height: 280px;
   }
 }
@@ -88,5 +99,47 @@ hr {
   .hero {
     height: 750px;
   }
+
+  @keyframes headShake {
+    0% {
+      transform: translateX(0);
+    }
+  
+    6.5% {
+      transform: translateX(-6px) rotateY(-9deg);
+    }
+  
+    18.5% {
+      transform: translateX(5px) rotateY(7deg);
+    }
+  
+    31.5% {
+      transform: translateX(-3px) rotateY(-5deg);
+    }
+  
+    43.5% {
+      transform: translateX(2px) rotateY(3deg);
+    }
+  
+    50% {
+      transform: translateX(0);
+    }
+  }
+  
+  .grid .headShake:hover {
+    animation-timing-function: ease-in-out;
+    animation-name: headShake;
+  }
+
+  .mainC1:hover, .mainC2:hover, .mainC3:hover {
+    opacity: 0.65;
+    transition: .6s ease;
+  }
+
+  a {
+    color: #F099BB;
+  }
+
+  
 }
 
