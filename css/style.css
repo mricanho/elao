@@ -63,6 +63,10 @@ hr {
 .footer {
   background-color: #f6ecb979;
 }
+
+.columns:last-child {
+  width: 100%;
+}
 /* media query */
 
 @media screen and (max-width: 760px) {
