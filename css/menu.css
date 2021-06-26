@@ -85,6 +85,10 @@ hr {
 .icecream {
   background-color: #C19DC9;
 }
+
+.modal-card-head {
+  background-color: #F6ECB9;
+}
 /* media query */
 
 @media screen and (max-width: 768px) {

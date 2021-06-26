@@ -74,7 +74,7 @@
         <div class="card-content">
           <div class="media">
             <div class="media-content">
-              <a class="openPop">
+              <a class="openPop2">
               <h2 class="title is-1-desktop">Paletas</h2>
               <h3 class="content is-size-4-desktop">
                 Toca aquí para conocer todos los sabores
@@ -195,20 +195,41 @@
       </p>
     </div>
   </footer>
-  <div class="modal" id="myModal">
+  <div class="modal is-active" id="myModal">
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Modal title</p>
+        <p class="modal-card-title">Paletas</p>
         <button class="delete" aria-label="close" data-bulma-modal="close"></button>
       </header>
       <section class="modal-card-body">
-        <p>There is something here</p>
+        <table class="table has-text-centered">
+          <thead>
+            <tr>
+              <th>Sabo de <span class="has-background-info-light">Agua</span></th>
+              <th>Precio <span class="has-background-info-light">Minis</span></th>
+              <th>Precio <span class="has-background-info-light">Grandes</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Limón</th>
+              <th>$ 10</th>
+              <th>$ 16</th>
+            </tr>
+            <tr>
+              <th>Mango</th>
+              <th>$ 10</th>
+              <th>$ 16</th>
+            </tr>
+            <tr>
+              <th>Mango Chamoy</th>
+              <th>$ 10</th>
+              <th>$ 16</th>
+            </tr>
+          </tbody>
+        </table>
       </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Save changes</button>
-        <button class="button" data-bulma-modal="close">Cancel</button>
-      </footer>
     </div>
   </div>
   

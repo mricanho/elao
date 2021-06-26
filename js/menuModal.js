@@ -46,10 +46,15 @@ class BulmaModal {
 	}
 }
 
-var btn = document.querySelector(".openPop")
+const btn = document.querySelector(".openPop");
+const btn2 = document.querySelector(".openPop2");
 var mdl = new BulmaModal("#myModal")
 
 btn.addEventListener("click", function () {
+	mdl.show()
+})
+
+btn2.addEventListener("click", function () {
 	mdl.show()
 })
 
