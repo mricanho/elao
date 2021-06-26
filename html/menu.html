@@ -66,7 +66,7 @@
       <div class="card column m-5 pop">
         <div class="card-image">
           <figure class="image is-3by4">
-            <a href="./about.html">
+            <a class="openPop">
             <img src="../assets/pop.jpg" alt="Placeholder image">
             </a>
           </figure>
@@ -74,7 +74,7 @@
         <div class="card-content">
           <div class="media">
             <div class="media-content">
-              <a>
+              <a class="openPop">
               <h2 class="title is-1-desktop">Paletas</h2>
               <h3 class="content is-size-4-desktop">
                 Toca aquí para conocer todos los sabores
@@ -195,6 +195,24 @@
       </p>
     </div>
   </footer>
+  <div class="modal" id="myModal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Modal title</p>
+        <button class="delete" aria-label="close" data-bulma-modal="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>There is something here</p>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Save changes</button>
+        <button class="button" data-bulma-modal="close">Cancel</button>
+      </footer>
+    </div>
+  </div>
   
+  <script src="../js/main.js"></script>
+  <script src="../js/menuModal.js"></script>
 </body>
 </html>
