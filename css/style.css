@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #000000;
+  color: #000;
 }
 
 .navbar-item img {
@@ -17,13 +17,20 @@ a {
   display: none;
 }
 
-.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
   background-color: white;
   color: #c9e2ea;
 }
 
 .hero-1 {
-  background-color: #F5B4CC;
+  background-color: #f5b4cc;
   background-image: url(../assets/heropic2.jpg);
   background-position: center;
   background-size: cover;
@@ -38,17 +45,19 @@ hr {
 }
 
 .mainC2 {
-  background-image: url(../assets/sabores.jpg)
+  background-image: url(../assets/sabores.jpg);
 }
 
 .mainC3 {
   background-image: url(../assets/puntoventa.jpg);
 }
 
-.mainC1, .mainC2, .mainC3 {
+.mainC1,
+.mainC2,
+.mainC3 {
   background-position: center;
   background-size: cover;
-  background-color: #F5B4CC;
+  background-color: #f5b4cc;
   height: 340px;
 }
 
@@ -67,6 +76,7 @@ hr {
 .columns:last-child {
   width: 100%;
 }
+
 /* media query */
 
 @media screen and (max-width: 760px) {
@@ -76,11 +86,14 @@ hr {
 }
 
 @media screen and (max-width: 1023px) {
-  #solo, #sol {
+  #solo,
+  #sol {
     display: none;
   }
 
-  .mainC1, .mainC2, .mainC3 {
+  .mainC1,
+  .mainC2,
+  .mainC3 {
     height: 280px;
   }
 }
@@ -106,7 +119,7 @@ hr {
     margin-left: 0;
   }
 
-  #my-navbar-menu>div>div {
+  #my-navbar-menu > div > div {
     flex: 1;
     justify-content: center;
   }
@@ -123,42 +136,41 @@ hr {
     0% {
       transform: translateX(0);
     }
-  
+
     6.5% {
       transform: translateX(-6px) rotateY(-9deg);
     }
-  
+
     18.5% {
       transform: translateX(5px) rotateY(7deg);
     }
-  
+
     31.5% {
       transform: translateX(-3px) rotateY(-5deg);
     }
-  
+
     43.5% {
       transform: translateX(2px) rotateY(3deg);
     }
-  
+
     50% {
       transform: translateX(0);
     }
   }
-  
+
   .grid .headShake:hover {
     animation-timing-function: ease-in-out;
     animation-name: headShake;
   }
 
-  .mainC1:hover, .mainC2:hover, .mainC3:hover {
+  .mainC1:hover,
+  .mainC2:hover,
+  .mainC3:hover {
     opacity: 0.65;
-    transition: .6s ease;
+    transition: 0.6s ease;
   }
 
   a {
-    color: #F099BB;
+    color: #f099bb;
   }
-
-  
 }
-
