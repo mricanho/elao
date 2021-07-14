@@ -47,7 +47,10 @@ class BulmaModal {
 
 const btn = document.querySelector('.openPop');
 const btn2 = document.querySelector('.openPop2');
+const btn3 = document.querySelector('.openPop3');
+const btn4 = document.querySelector('.openPop4');
 const mdl = new BulmaModal('#myModal');
+const md2 = new BulmaModal('#myModal2');
 
 btn.addEventListener('click', () => {
   mdl.show();
@@ -56,3 +59,11 @@ btn.addEventListener('click', () => {
 btn2.addEventListener('click', () => {
   mdl.show();
 });
+
+btn3.addEventListener('click', () => {
+  md2.show();
+});
+
+btn4.addEventListener('click', () => {
+  md2.show();
+})
