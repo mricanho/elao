@@ -31,7 +31,14 @@ a.navbar-item:hover {
 
 .hero-1 {
   background-color: #f5b4cc;
-  background-image: url(../assets/heropic2.jpg);
+  background-image: url(../assets/history-hero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-2 {
+  background-color: #f5b4cc;
+  background-image: url(../assets/h-hero2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -79,8 +86,12 @@ hr {
 
 /* media query */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .hero-1 {
+    height: 200px;
+  }
+
+  .hero-2 {
     height: 200px;
   }
 }

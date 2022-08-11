@@ -31,7 +31,7 @@ a.navbar-item:hover {
 
 .hero-1 {
   background-color: #f5b4cc;
-  background-image: url(../assets/heropic2.jpg);
+  background-image: url(../assets/menu-hero.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -77,10 +77,40 @@ hr {
   width: 100%;
 }
 
+.pop {
+  background-color: #f6ecb9;
+}
+
+.pop .img {
+  background-position: center;
+  background-size: cover;
+  background-color: #f5b4cc;
+}
+
+.icecream a {
+  color: white;
+}
+
+.icecream {
+  background-color: #c19dc9;
+}
+
+.modal-card-head {
+  background-color: #f6ecb9;
+}
+
+.imageT {
+  width: 30px;
+}
+
 /* media query */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .hero-1 {
+    height: 200px;
+  }
+
+  .hero-2 {
     height: 200px;
   }
 }
