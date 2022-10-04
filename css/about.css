@@ -1,0 +1,187 @@
+@import url("https://use.typekit.net/ecz0kkg.css");
+
+body {
+  font-family: clarendon-urw, serif;
+  font-weight: 400;
+}
+
+a {
+  color: #000;
+}
+
+.navbar-item img {
+  max-height: 2rem;
+}
+
+#no-logo {
+  display: none;
+}
+
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+  background-color: white;
+  color: #c9e2ea;
+}
+
+.hero-1 {
+  background-color: #f5b4cc;
+  background-image: url(../assets/history-hero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-2 {
+  background-color: #f5b4cc;
+  background-image: url(../assets/h-hero2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+hr {
+  background-color: #c9e2ea;
+}
+
+.mainC1 {
+  background-image: url(../assets/history.jpg);
+}
+
+.mainC2 {
+  background-image: url(../assets/sabores.jpg);
+}
+
+.mainC3 {
+  background-image: url(../assets/puntoventa.jpg);
+}
+
+.mainC1,
+.mainC2,
+.mainC3 {
+  background-position: center;
+  background-size: cover;
+  background-color: #f5b4cc;
+  height: 340px;
+}
+
+.bounce {
+  animation: bounceleftmargin 1s 1;
+}
+
+.newsletter {
+  background-color: #c9e2ea;
+}
+
+.footer {
+  background-color: #f6ecb979;
+}
+
+.columns:last-child {
+  width: 100%;
+}
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+  .hero-1 {
+    height: 200px;
+  }
+
+  .hero-2 {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #solo,
+  #sol {
+    display: none;
+  }
+
+  .mainC1,
+  .mainC2,
+  .mainC3 {
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .my-navbar {
+    display: block !important;
+  }
+
+  .navbar-menu {
+    justify-content: center;
+  }
+
+  .my-navbar .navbar-brand {
+    display: none;
+  }
+
+  .navbar-start {
+    margin-right: 0;
+  }
+
+  .navbar-end {
+    margin-left: 0;
+  }
+
+  #my-navbar-menu > div > div {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .mobileLogo {
+    display: none !important;
+  }
+
+  .hero {
+    height: 750px;
+  }
+
+  @keyframes headShake {
+    0% {
+      transform: translateX(0);
+    }
+
+    6.5% {
+      transform: translateX(-6px) rotateY(-9deg);
+    }
+
+    18.5% {
+      transform: translateX(5px) rotateY(7deg);
+    }
+
+    31.5% {
+      transform: translateX(-3px) rotateY(-5deg);
+    }
+
+    43.5% {
+      transform: translateX(2px) rotateY(3deg);
+    }
+
+    50% {
+      transform: translateX(0);
+    }
+  }
+
+  .grid .headShake:hover {
+    animation-timing-function: ease-in-out;
+    animation-name: headShake;
+  }
+
+  .mainC1:hover,
+  .mainC2:hover,
+  .mainC3:hover {
+    opacity: 0.65;
+    transition: 0.6s ease;
+  }
+
+  a {
+    color: #f099bb;
+  }
+}
